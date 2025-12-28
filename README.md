@@ -33,7 +33,7 @@ YawInput is a lightweight utility that optimizes mouse and keyboard input pollin
 
 ### Option 2: Build from Source
 
-```bash
+```cmd
 # Clone the repository
 git clone https://github.com/KhromeZee/YawInput.git
 cd YawInput
@@ -42,7 +42,7 @@ cd YawInput
 msbuild YawInput.sln /p:Configuration=Release
 
 # Run the application
-cd bin/Release
+cd bin\Release
 YawInput.exe
 ```
 
@@ -58,7 +58,7 @@ YawInput.exe
 
 ### Command Line Options
 
-```bash
+```cmd
 # Run with specific polling rate
 YawInput.exe --rate 1000
 
